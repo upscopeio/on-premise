@@ -6,7 +6,7 @@ Requirements:
 - MongoDB
 - Redis
 
-1. Download Upscope from https://dist.upscope.io/index.html with the username and password provided
+1. Download Upscope from https://dist.upscope.io/index.html with the username and password you can find [here](https://app.upscope.io/settings/teams/_/on_prem).
 2. Run the server by running `BYPASS_AUTH=yes ./upscope-data-[macos|linux|windows.exe]` depending on your platform
 3. Add the following code to any HTML page:
 ```
@@ -16,7 +16,7 @@ s.src='http://localhost:5002/upscope.js';var x=d.getElementsByTagName('script')[
 )(window, window.Upscope, document);
 
 Upscope('init', {
-apiKey: 'onpremise'
+apiKey: // Your public API key here (See here: https://app.upscope.io/settings/teams/_/on_prem)
 });
 
 Upscope('getWatchLink', console.log);
