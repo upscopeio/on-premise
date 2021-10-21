@@ -1,3 +1,5 @@
+# These docs are for the old version of Upscope on-premise (1.x). Newer docs are available at [https://docs.upscope.com/on-premise](https://docs.upscope.com/on-premise).
+
 # on-premise
 On premise distribution of Upscope
 
